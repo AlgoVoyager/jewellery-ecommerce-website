@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cors());
-const connectionString = "mongodb+srv://pkp22:2qHecDYGg8uG7D2X@pkp.utkz9dm.mongodb.net/elegance?retryWrites=true&w=majority&appName=pkp";
+const connectionString = "mongodb+srv://pkp22:4drOSSGvoFl0A5iu@pkp.utkz9dm.mongodb.net/elegance?retryWrites=true&w=majority&appName=pkp";
 mongoose.connect(connectionString).then(() => {
     console.log('Connected to MongoDB');
   }).catch((error) => {
